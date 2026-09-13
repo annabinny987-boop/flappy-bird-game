@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cy755y4tu6jnn"]
+
+[ext_resource type="Script" uid="uid://bmnxxmg06ixap" path="res://pipe.gd" id="1_bepn3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u2xpw"]
+size = Vector2(100, 300)
+
+[node name="pipe" type="StaticBody2D" unique_id=1158555883]
+position = Vector2(0, -250)
+script = ExtResource("1_bepn3")
+
+[node name="toppipe" type="ColorRect" parent="." unique_id=856030097]
+offset_top = -250.0
+offset_right = 100.0
+offset_bottom = 50.0
+color = Color(0.64705884, 1, 0.019607844, 1)
+
+[node name="bottompipe" type="ColorRect" parent="." unique_id=1692340124]
+offset_top = 250.0
+offset_right = 100.0
+offset_bottom = 550.0
+color = Color(0.64705884, 1, 0.019607844, 1)
+
+[node name="topcollision" type="CollisionShape2D" parent="." unique_id=1803870073]
+position = Vector2(50, -102)
+shape = SubResource("RectangleShape2D_u2xpw")
+
+[node name="bottomcollision" type="CollisionShape2D" parent="." unique_id=522663651]
+position = Vector2(51, 400)
+shape = SubResource("RectangleShape2D_u2xpw")

@@ -56,7 +56,8 @@ GAME OVER:
 <img width="1908" height="1138" alt="Screenshot 2026-09-13 154154" src="https://github.com/user-attachments/assets/95e80a0a-dfd5-4ae1-b21b-b23d4f47dfad" />
 
 GAME PLAY:
-<img width="1914" height="1195" alt="Screenshot 2026-09-13 154623" src="https://github.com/user-attachments/assets/026387c2-fe34-47b7-83c9-255f2673663e" />
+<img width="1900" height="1141" alt="image" src="https://github.com/user-attachments/assets/26950c4c-33d9-46b1-b4d8-4ced6cf521ec" />
+
 
 
 
